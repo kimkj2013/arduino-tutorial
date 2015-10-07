@@ -6,7 +6,7 @@ int pin;
 
 void setup() {
   // put your setup code here, to run once:
-  int pin = 13;
+  pin = 13;
   pinMode(pin,OUTPUT);
 }
 
@@ -160,4 +160,24 @@ void loop() {
   delay(500);
   digitalWrite(pin, LOW); 
   delay(1000);
+}
+
+void writeLong() {
+  digitalWrite(pin, HIGH);
+  delay(1000);
+}
+
+void writeShort() {
+  digitalWrite(pin, HIGH);
+  delay(500);
+}
+
+void closeLong() {
+  digitalWrite(pin, LOW);
+  delay(1000);
+}
+
+void closeShort() {
+  digitalWrite(pin, LOW);
+  delay(500);
 }
