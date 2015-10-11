@@ -5,8 +5,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(13, HIGH);
-  delay(1000);
-  Write(13, LOW);
-  delay(1000);
+  digitalWrite(13, HIGH); // From port 13
+  delay(50);
+  digitalWrite(13, LOW);
+  delay(50);
 }
