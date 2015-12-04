@@ -6,7 +6,7 @@ int pin;
 
 void setup() {
   // put your setup code here, to run once:
-  pin = 13;
+  pin = 8;
   pinMode(pin,OUTPUT);
 }
 
